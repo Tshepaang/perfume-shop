@@ -12,3 +12,4 @@ app.use("/api/products", require("./routes/productRoutes"));
 app.use("/api/reviews", require("./routes/reviewRoutes"));
 
 app.listen(5000, () => console.log("Server running on port 5000"));
+
